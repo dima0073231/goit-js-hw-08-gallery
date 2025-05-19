@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Homework 8</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+
+  <ul class="gallery js-gallery">
+  <li class="gallery__item">
+    <a class="gallery__link" href="https://cdn.pixabay.com/photo/2010/12/13/10/13/tulips-2546_1280.jpg">
+      <img class="gallery__image" src="https://cdn.pixabay.com/photo/2010/12/13/10/13/tulips-2546__340.jpg"
+        data-source="https://cdn.pixabay.com/photo/2010/12/13/10/13/tulips-2546_1280.jpg" alt="Tulips" />
+    </a>
+  </li>
+  <li class="gallery__item">
+    <a class="gallery__link" href="https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830_1280.jpg">
+      <img class="gallery__image" src="https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830__340.jpg"
+        data-source="https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830_1280.jpg" alt="Flowers" />
+    </a>
+  </li>
+  <li class="gallery__item">
+    <a class="gallery__link" href="https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_1280.jpg">
+      <img class="gallery__image" src="https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819__340.jpg"
+        data-source="https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_1280.jpg" alt="Rose" />
+    </a>
+  </li>
+</ul>
+
+<div class="lightbox js-lightbox">
+  <div class="lightbox__overlay"></div>
+  <div class="lightbox__content">
+    <img class="lightbox__image" src="" alt="" />
+    <button type="button" class="lightbox__button" data-action="close-lightbox">×</button>
+    <button type="button" class="lightbox__button" data-action="prev-lightbox">←</button>
+    <button type="button" class="lightbox__button" data-action="next-lightbox">→</button>
+  </div>
+</div>
+
+<script src="./script.js" type="module"></script>
+</body>
+
+</html>
